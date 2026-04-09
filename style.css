@@ -1,0 +1,149 @@
+/* ESTILIZAÇÃO DO SITE PARIS */
+
+/* ESTILIZAÇÃO PADRÁO DO SITE PARIS */
+body{
+    background-color: rgb(251, 249, 229);
+    background-image: url(imagens/back-paris.jpg);
+    background-repeat: repeat-x;
+    margin-top: 0px;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body, th, td{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+h1{
+    font-size: 50px;
+    color: #14316b;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-size: 20px;
+    background: #9eb6e2;
+    color: #fff;
+    padding: 5px;
+    margin-top: 0px;
+}
+h3{
+    font-size: 20px;
+    color: #14316b;
+    font-weight: normal;
+    border-bottom: 2px solid #14316b;
+}
+
+/* ESTILIZAÇÃO DOS TÍTULOS */
+#titulos{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* MENU */
+#menu{
+    background: url(imagens/logotipo.png) no-repeat;
+    padding-top: 90px;
+    padding-right: 15px;
+    padding-left: 210px;
+}
+#menu p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#menu p a{
+    font-weight: normal;
+    color: #71000d;
+    margin-left: 10px;
+    padding-top: 3px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-top: 2px solid #14316b;
+}
+#menu p a:hover{
+    background: #d8e1f3;
+}
+
+/* ESTILIZAÇÃO DO CONTEÚDO */
+
+#conteudo{
+    text-align: justify;
+    margin-left: 240px;
+    padding-right: 15px;
+}
+
+/* ESTILIZAÇÃO DOS MARCADORES */
+
+#conteudo ul{
+    padding-left: 25px;
+}
+#conteudo ul li{
+    padding-bottom: 10px;
+    list-style: url(imagens/lista-losango.gif);
+}
+
+/* ESTILIZAÇÃO DAS IMAGENS */
+
+#conteudo p img{
+    padding: 10px;
+    margin-right: 7px;
+    margin-bottom: 14px;
+    border: 1px solid #990000;
+    border-radius: 15px;
+}
+
+/* ESTILIZAÇÃO DA TABELA EM VALORES */
+
+table{
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+caption{
+    font-weight: bolder;
+    background: #14316b;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px;
+}
+
+th{
+    background: #990000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+td{
+    background: #9eb6e2;
+    padding: 5px;
+    border: 1px solid #990000;
+}
+
+#box{
+    font-size: 16px;
+    line-height: 16px; /* espaçamento entre linhas */
+    font-weight: bolder;
+    color: #14316b;
+    background: url(imagens/back-box.gif);
+    padding: 30px 60px;
+    width: 470px;
+    border: thick dashed #14316b;
+    border-radius: 15px;
+}
+
+.destaque{
+    font-size: 14px;
+    color: #900;
+    background: #fff;
+    padding: 3px;
+}
+
+
+
+
